@@ -1,0 +1,25 @@
+.stat {
+  display: flex;
+  align-items: center;
+  margin: 0.3rem 0;
+}
+
+.stat-label {
+  width: 140px;   /* fixed width so everything lines up */
+  text-align: right;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.stat-bar {
+  flex: 1;  /* bar takes remaining space */
+  height: 12px;
+  background: #003566;
+  border: 1px solid #00bfff;
+  position: relative;
+}
+
+.stat-fill {
+  height: 100%;
+  background: #00bfff;
+}
