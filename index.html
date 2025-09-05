@@ -4,136 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Force Archives</title>
-  <style>
-    /* General page styling */
-    body {
-      background-color: #000814;
-      color: #00bfff;
-      font-family: 'Courier New', monospace;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background: #001d3d;
-      padding: 1rem;
-      text-align: center;
-      border-bottom: 2px solid #00bfff;
-    }
-
-    header h1 {
-      margin: 0;
-      color: #00bfff;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      margin-top: 0.5rem;
-    }
-
-    nav a {
-      color: #00bfff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    main {
-      padding: 2rem;
-    }
-
-    /* Characters section */
-    .characters {
-      display: grid;
-      gap: 2rem;
-    }
-
-    .character-card {
-      background: #001d3d;
-      border: 2px solid #00bfff;
-      padding: 1rem;
-      display: grid;
-      grid-template-columns: 150px 1fr;
-      gap: 1rem;
-      transition: transform 0.2s ease;
-    }
-
-    .character-card:hover {
-      transform: scale(1.02);
-      box-shadow: 0 0 15px #00bfff;
-    }
-
-    .character-img {
-      background: #000;
-      border: 2px solid #00bfff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0.5rem;
-    }
-
-    .character-img img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    .character-info h2 {
-      margin-top: 0;
-      text-transform: uppercase;
-      border-bottom: 1px solid #00bfff;
-      padding-bottom: 0.3rem;
-    }
-
-    .stats {
-      display: flex;
-      flex-direction: column;
-      gap: 0.3rem;
-    }
-
-    .stat {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .stat-bar {
-      flex: 1;
-      margin-left: 0.5rem;
-      height: 10px;
-      background: #003566;
-      border: 1px solid #00bfff;
-      position: relative;
-    }
-
-    .stat-fill {
-      height: 100%;
-      background: #00bfff;
-    }
-
-    .section-title {
-      margin-top: 1rem;
-      font-weight: bold;
-      text-transform: uppercase;
-      border-top: 1px solid #00bfff;
-      padding-top: 0.5rem;
-    }
-
-    .powers, .personality {
-      margin: 0.5rem 0;
-      padding-left: 1.2rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>The Force Archives Archives</h1>
+    <h1>The Force Archives</h1>
     <nav>
       <a href="#">Home</a>
       <a href="#">Blog</a>
@@ -141,7 +16,8 @@
       <a href="#">About</a>
     </nav>
   </header>
-
+</head>
+<body>
   <main>
     <h2>Members</h2>
     <div class="characters">
