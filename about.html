@@ -7,20 +7,29 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+<div class="wrap">
+  <header class="banner">
     <h1>The Force Archives</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="blogs.html">Blog</a>
-      <a href="members.html">Members</a>
-      <a href="about.html">About</a>
-    </nav>
+    <p>The official archive of The Force</p>
   </header>
-
-  <main>
-    <h2>About The Force</h2>
-    <p>The Force is not just a team — it’s a legacy. Formed under extraordinary circumstances, the group has defended the world from unimaginable threats while battling their own inner struggles.</p>
-    <p>Each member brings unique strengths, weaknesses, and personalities, making The Force a complex but unstoppable alliance.</p>
-  </main>
+  <div class="ticker" aria-hidden="true"><span>*** Welcome to The Force Archives *** Meet the members *** Read the blog *** Learn the history that binds them together ***</span></div>
+  <div class="layout">
+    <aside>
+      <section class="window"><div class="title-bar"><span class="title-text">Navigation</span></div>
+        <nav class="window-body" aria-label="Main"><a href="index.html">Home</a><a href="blogs.html">Blog</a><a href="members.html">Members</a><a href="about.html">About</a></nav></section>
+      <section class="window"><div class="title-bar"><span class="title-text">Visitors</span></div>
+        <div class="window-body center"><p>You are visitor number</p>
+        <div class="counter" id="visitor-count"><span>0</span><span>0</span><span>0</span><span>0</span><span>0</span><span>0</span></div>
+        <p class="small">Counted in this browser only.</p></div></section>
+    </aside>
+    <main>
+<section class="window"><div class="title-bar"><h2 class="title-text">About The Force</h2></div><div class="window-body"><p>The Force is not just a team — it’s a legacy. Formed under extraordinary circumstances, the group has defended the world from unimaginable threats while battling their own inner struggles.</p>
+<p>Each member brings unique strengths, weaknesses, and personalities, making The Force a complex but unstoppable alliance.</p></div></section>
+    </main>
+  </div>
+  <hr class="rule">
+  <footer class="footer">&copy; The Force Archives. Best viewed at 800x600 or higher.</footer>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

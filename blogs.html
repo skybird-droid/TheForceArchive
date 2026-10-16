@@ -7,28 +7,36 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+<div class="wrap">
+  <header class="banner">
     <h1>The Force Archives</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="blogs.html">Blog</a>
-      <a href="members.html">Members</a>
-      <a href="about.html">About</a>
-    </nav>
+    <p>The official archive of The Force</p>
   </header>
-
-  <main>
-    <h2>Blog</h2>
-    <div class="blog-posts">
-
-      <article class="blog-post">
-        <h3>Example Title</h3>
-        <p class="date">Posted on </p>
-        <p>Whatdamanga, Whatdamanga</p>
-        <a href="#">Read more...</a>
-      </article>
-
-    </div>
-  </main>
+  <div class="ticker" aria-hidden="true"><span>*** Welcome to The Force Archives *** Meet the members *** Read the blog *** Learn the history that binds them together ***</span></div>
+  <div class="layout">
+    <aside>
+      <section class="window"><div class="title-bar"><span class="title-text">Navigation</span></div>
+        <nav class="window-body" aria-label="Main"><a href="index.html">Home</a><a href="blogs.html">Blog</a><a href="members.html">Members</a><a href="about.html">About</a></nav></section>
+      <section class="window"><div class="title-bar"><span class="title-text">Visitors</span></div>
+        <div class="window-body center"><p>You are visitor number</p>
+        <div class="counter" id="visitor-count"><span>0</span><span>0</span><span>0</span><span>0</span><span>0</span><span>0</span></div>
+        <p class="small">Counted in this browser only.</p></div></section>
+    </aside>
+    <main>
+<h2 class="page-title">Blog</h2>
+<div class="blog-posts" id="blog-posts"><section class="window">
+  <div class="title-bar"><h3 class="title-text">Three Years on the Front Lines: How The Force Was Born</h3></div>
+  <div class="window-body">
+    <p class="small">Posted on October 16, 1996 by Skybird</p>
+    <p>Three years. It feels like a lifetime ago, yet I can still hear the roar of the crowd in downtown Toronto like it was yesterday.</p>
+    <a href="blogs/blog-1.html">Read more...</a>
+  </div>
+</section></div>
+    </main>
+  </div>
+  <hr class="rule">
+  <footer class="footer">&copy; The Force Archives. Best viewed at 800x600 or higher.</footer>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

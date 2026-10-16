@@ -7,20 +7,29 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+<div class="wrap">
+  <header class="banner">
     <h1>The Force Archives</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="blogs.html">Blog</a>
-      <a href="members.html">Members</a>
-      <a href="about.html">About</a>
-    </nav>
+    <p>The official archive of The Force</p>
   </header>
-
-  <main>
-    <h2>Welcome to The Force Archives</h2>
-    <p>This is the official archive of The Force — a legendary team of extraordinary heroes. Explore the members, read exclusive lore in our blog, and learn about the history that binds them together.</p>
-  </main>
+  <div class="ticker" aria-hidden="true"><span>*** Welcome to The Force Archives *** Meet the members *** Read the blog *** Learn the history that binds them together ***</span></div>
+  <div class="layout">
+    <aside>
+      <section class="window"><div class="title-bar"><span class="title-text">Navigation</span></div>
+        <nav class="window-body" aria-label="Main"><a href="index.html">Home</a><a href="blogs.html">Blog</a><a href="members.html">Members</a><a href="about.html">About</a></nav></section>
+      <section class="window"><div class="title-bar"><span class="title-text">Visitors</span></div>
+        <div class="window-body center"><p>You are visitor number</p>
+        <div class="counter" id="visitor-count"><span>0</span><span>0</span><span>0</span><span>0</span><span>0</span><span>0</span></div>
+        <p class="small">Counted in this browser only.</p></div></section>
+    </aside>
+    <main>
+<section class="window"><div class="title-bar"><h2 class="title-text">Welcome to The Force Archives</h2></div><div class="window-body"><p>This is the official archive of The Force — a legendary team of extraordinary heroes. Explore the members, read exclusive lore in our blog, and learn about the history that binds them together.</p>
+<div class="construction"><span class="blink">Under construction: more lore coming soon</span></div></div></section>
+    </main>
+  </div>
+  <hr class="rule">
+  <footer class="footer">&copy; The Force Archives. Best viewed at 800x600 or higher.</footer>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
-
